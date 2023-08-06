@@ -557,7 +557,7 @@ function onClickSong(){
     clickSound.currentTime = 0; // Reset sound to the beginning
     clickSound.play(); // Play the sound
 }
-const clickSoundInitial = new Audio('./Assets/320998__littlerobotsoundfactory__loop_ancient_people_00.wav');
+const clickSoundInitial = new Audio('./Assets/691609__benderhover__retro-style-game-beat.mp3');
 // let musicPlayed = false;
 function initialSongPlay(){
     clickSoundInitial.currentTime = 0; // Reset sound to the beginning
@@ -567,7 +567,7 @@ function initialSongPlay(){
 	clickSoundInitial.play(); // Play the sound
 	// musicPlayed = true;
 }
-
+initialSongPlay();
 
 function initialSongPause(){
 	clickSoundInitial.pause();
