@@ -118,12 +118,11 @@
     box-sizing: border-box;
   }  
   body {
-    overflow: hidden; /* Prevent overall scrolling */
+    max-height: 100vh; /* Container will take the full height of the screen */
   }
   
   .containerBody {
     background-size: 100% 100%;
-    height: 100vh; /* Container will take the full height of the screen */
   }
   .custom-shape-divider-bottom-1688879603 svg {
     height: 80px;
@@ -134,7 +133,7 @@
   }
   h1 {
     width: 135px;
-    font-size: 30px;
+    font-size: 34px;
   }
   .sectionMain{
     display: flex;
