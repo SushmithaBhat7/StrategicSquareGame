@@ -567,7 +567,7 @@ function initialSongPlay(){
 	clickSoundInitial.play(); // Play the sound
 	// musicPlayed = true;
 }
-initialSongPlay();
+// initialSongPlay();
 
 function initialSongPause(){
 	clickSoundInitial.pause();
