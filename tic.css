@@ -117,6 +117,9 @@
   * {
     box-sizing: border-box;
   }  
+  body {
+    overflow: hidden; /* Prevent overall scrolling */
+  }
   
   .containerBody {
     background-size: 100% 100%;
@@ -131,7 +134,7 @@
   }
   h1 {
     width: 135px;
-    font-size: 23px;
+    font-size: 30px;
   }
   .sectionMain{
     display: flex;
