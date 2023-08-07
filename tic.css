@@ -103,12 +103,16 @@
       padding-left: 10px;
       margin: 20px 4px;
   }
+  .iframeClass{
+      width: 200px;
+      height: 200px;
+  }
 }
 
 /* Styles for mobile devices */
 @media (max-width: 767px) {
   .containerBody {
-    background-size: 200% 200%;
+    background-size: 100% 100%;
   }
   .custom-shape-divider-bottom-1688879603 svg {
     height: 80px;
@@ -156,6 +160,10 @@
     font-size: 20px;
       /* padding-left: 10px; */
       margin: 10px 4px;
+  }
+  .iframeClass{
+      width: 80px;
+      height: 80px;
   }
 }
 
