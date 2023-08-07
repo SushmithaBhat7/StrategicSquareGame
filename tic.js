@@ -561,7 +561,7 @@ const clickSoundInitial = new Audio('./Assets/691609__benderhover__retro-style-g
 // let musicPlayed = false;
 function initialSongPlay(){
     clickSoundInitial.currentTime = 0; // Reset sound to the beginning
-    clickSoundInitial.muted = true;
+    // clickSoundInitial.muted = true;
 	// clickSoundInitial.autoplay = true;
 	// clickSoundInitial.loop = true;
 	clickSoundInitial.play(); // Play the sound
